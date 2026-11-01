@@ -41,11 +41,11 @@ app.use((_req: Request, res: Response, next: NextFunction) => {
     'Content-Security-Policy',
     [
       "default-src 'self'",
-      "script-src 'self' 'unsafe-inline' 'unsafe-eval'",
+      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://retro-weld-six.vercel.app",
       "style-src 'self' 'unsafe-inline'",
       "img-src 'self' data: blob:",
       "font-src 'self' data:",
-      "connect-src 'self' ws: wss: https:",
+      "connect-src 'self' ws: wss: https: https://retro-weld-six.vercel.app",
       "worker-src 'self' blob:",
       "media-src 'self' data: blob:",
       "object-src 'none'",
