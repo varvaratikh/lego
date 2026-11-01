@@ -1,0 +1,6 @@
+{
+  "name": "LegoSim 3D - LEGO World & Sims Simulator",
+  "description": "3D LEGO simulation sandbox with realistic brick snap building, cannon physics, destructible creations, and living Lego Sims minifigures with needs and activities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
